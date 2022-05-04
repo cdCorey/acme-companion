@@ -46,7 +46,7 @@ local               f260f71fefadcdfc311d285d69151f2312915174d3fb1fab89949ec5ec87
 
 ### Host volumes
 
-Alternatively, you might want to store the certificates on a local folder rather than letting Docker create and manage a volume for them. This is easily achieved by using a **host volume** (binding an absolute path on your host to the `/ect/nginx/certs` folder on your containers):
+Alternatively, you might want to store the certificates on a local folder rather than letting Docker create and manage a volume for them. This is easily achieved by using a **host volume** (binding an absolute path on your host to the `/etc/nginx/certs` folder on your containers):
 
 `-v /path/to/certificates:/etc/nginx/certs`
 
